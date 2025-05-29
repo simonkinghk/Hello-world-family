@@ -1,0 +1,567 @@
+2024-08-22T16:51:24.333+08:00  INFO 28440 --- [main] com.itranswarp.learnjava.Application     : Starting Application v1.0-SNAPSHOT using Java 22.0.2 with PID 28440 (/Users/smk/Library/CloudStorage/Dropbox/Others/projCache/FWD/springboot-hello/target/springboot-hello-1.0-SNAPSHOT.jar started by smk in /Users/smk/Library/CloudStorage/Dropbox/Others/projCache/FWD/springboot-hello)
+2024-08-22T16:51:24.337+08:00  INFO 28440 --- [main] com.itranswarp.learnjava.Application     : No active profile set, falling back to 1 default profile: "default"
+2024-08-22T16:51:24.827+08:00  INFO 28440 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2024-08-22T16:51:24.833+08:00  INFO 28440 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-08-22T16:51:24.833+08:00  INFO 28440 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.1]
+2024-08-22T16:51:24.879+08:00  INFO 28440 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-08-22T16:51:24.880+08:00  INFO 28440 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 515 ms
+2024-08-22T16:51:24.933+08:00  WARN 28440 --- [main] com.zaxxer.hikari.HikariConfig           : HikariPool-1 - idleTimeout is close to or more than maxLifetime, disabling it.
+2024-08-22T16:51:24.934+08:00  INFO 28440 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-08-22T16:51:25.143+08:00  INFO 28440 --- [main] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Driver does not support get/set network timeout for connections. (feature not supported)
+2024-08-22T16:51:25.144+08:00  INFO 28440 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.hsqldb.jdbc.JDBCConnection@24a1c17f
+2024-08-22T16:51:25.145+08:00  INFO 28440 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-08-22T16:51:25.299+08:00  WARN 28440 --- [main] ocalVariableTableParameterNameDiscoverer : Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: io.pebbletemplates.boot.autoconfigure.PebbleServletWebConfiguration
+2024-08-22T16:51:25.301+08:00  WARN 28440 --- [main] ocalVariableTableParameterNameDiscoverer : Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: io.pebbletemplates.boot.autoconfigure.PebbleAutoConfiguration
+2024-08-22T16:51:25.378+08:00  INFO 28440 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2024-08-22T16:51:25.425+08:00  INFO 28440 --- [main] com.itranswarp.learnjava.Application     : Started Application in 1.365 seconds (process running for 1.616)
+2024-08-22T16:52:36.329+08:00  INFO 28440 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-08-22T16:52:36.330+08:00  INFO 28440 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-08-22T16:52:36.330+08:00  INFO 28440 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2024-08-22T16:52:56.567+08:00  INFO 28440 --- [http-nio-8080-exec-10] c.i.learnjava.service.UserService        : try register by kingsinghk@gmail.com...
+2024-08-22T16:52:56.585+08:00  INFO 28440 --- [http-nio-8080-exec-10] c.i.learnjava.web.UserController         : user registered: kingsinghk@gmail.com
+2024-08-22T16:53:02.933+08:00  INFO 28440 --- [http-nio-8080-exec-4] c.i.learnjava.service.UserService        : try login by kingsinghk@gmail.com...
+2024-08-22T16:53:20.945+08:00  INFO 28440 --- [http-nio-8080-exec-6] c.i.learnjava.service.UserService        : try register by kingsinghk@gmail.com...
+2024-08-22T16:53:34.362+08:00  INFO 28440 --- [http-nio-8080-exec-10] c.i.learnjava.service.UserService        : try login by kingsinghk@gmail.com...
+2024-08-22T16:53:38.760+08:00  INFO 28440 --- [http-nio-8080-exec-3] c.i.learnjava.service.UserService        : try login by kingsinghk@gmail.com...
+2024-08-22T16:54:39.548+08:00  INFO 28440 --- [http-nio-8080-exec-7] c.i.learnjava.service.UserService        : try register by smk@gmail.com...
+2024-08-22T16:54:39.550+08:00  INFO 28440 --- [http-nio-8080-exec-7] c.i.learnjava.web.UserController         : user registered: smk@gmail.com
+2024-08-22T16:54:47.651+08:00  INFO 28440 --- [http-nio-8080-exec-9] c.i.learnjava.service.UserService        : try login by smk@gmail.com...
+2024-08-22T16:54:58.227+08:00  INFO 28440 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-08-22T16:54:58.229+08:00  INFO 28440 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-08-22T16:55:04.247+08:00  INFO 28503 --- [main] com.itranswarp.learnjava.Application     : Starting Application v1.0-SNAPSHOT using Java 22.0.2 with PID 28503 (/Users/smk/Library/CloudStorage/Dropbox/Others/projCache/FWD/springboot-hello/target/springboot-hello-1.0-SNAPSHOT.jar started by smk in /Users/smk/Library/CloudStorage/Dropbox/Others/projCache/FWD/springboot-hello)
+2024-08-22T16:55:04.248+08:00  INFO 28503 --- [main] com.itranswarp.learnjava.Application     : No active profile set, falling back to 1 default profile: "default"
+2024-08-22T16:55:04.741+08:00  INFO 28503 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2024-08-22T16:55:04.745+08:00  INFO 28503 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-08-22T16:55:04.746+08:00  INFO 28503 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.1]
+2024-08-22T16:55:04.784+08:00  INFO 28503 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-08-22T16:55:04.785+08:00  INFO 28503 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 514 ms
+2024-08-22T16:55:04.841+08:00  WARN 28503 --- [main] com.zaxxer.hikari.HikariConfig           : HikariPool-1 - idleTimeout is close to or more than maxLifetime, disabling it.
+2024-08-22T16:55:04.842+08:00  INFO 28503 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-08-22T16:55:05.063+08:00  INFO 28503 --- [main] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Driver does not support get/set network timeout for connections. (feature not supported)
+2024-08-22T16:55:05.064+08:00  INFO 28503 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.hsqldb.jdbc.JDBCConnection@5f7f2382
+2024-08-22T16:55:05.065+08:00  INFO 28503 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-08-22T16:55:05.223+08:00  WARN 28503 --- [main] ocalVariableTableParameterNameDiscoverer : Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: io.pebbletemplates.boot.autoconfigure.PebbleServletWebConfiguration
+2024-08-22T16:55:05.228+08:00  WARN 28503 --- [main] ocalVariableTableParameterNameDiscoverer : Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: io.pebbletemplates.boot.autoconfigure.PebbleAutoConfiguration
+2024-08-22T16:55:05.295+08:00  INFO 28503 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2024-08-22T16:55:05.304+08:00  INFO 28503 --- [main] com.itranswarp.learnjava.Application     : Started Application in 1.343 seconds (process running for 1.556)
+2024-08-22T16:55:07.855+08:00  INFO 28503 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-08-22T16:55:07.855+08:00  INFO 28503 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-08-22T16:55:07.856+08:00  INFO 28503 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-08-22T17:07:24.461+08:00  INFO 28503 --- [http-nio-8080-exec-7] c.i.learnjava.service.UserService        : try register by kingsinghk@gmail.com...
+2024-08-22T17:07:28.593+08:00  WARN 28503 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=12m23s426ms).
+2024-08-22T17:14:52.670+08:00  INFO 28503 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-08-22T17:14:52.673+08:00  INFO 28503 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-08-22T17:19:10.627+08:00  INFO 28584 --- [main] com.itranswarp.learnjava.Application     : Starting Application v1.0-SNAPSHOT using Java 22.0.2 with PID 28584 (/Users/smk/Library/CloudStorage/Dropbox/Others/projCache/FWD/springboot-hello/target/springboot-hello-1.0-SNAPSHOT.jar started by smk in /Users/smk/Library/CloudStorage/Dropbox/Others/projCache/FWD/springboot-hello)
+2024-08-22T17:19:10.630+08:00  INFO 28584 --- [main] com.itranswarp.learnjava.Application     : No active profile set, falling back to 1 default profile: "default"
+2024-08-22T17:19:11.154+08:00  INFO 28584 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2024-08-22T17:19:11.160+08:00  INFO 28584 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-08-22T17:19:11.160+08:00  INFO 28584 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.1]
+2024-08-22T17:19:11.206+08:00  INFO 28584 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-08-22T17:19:11.207+08:00  INFO 28584 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 552 ms
+2024-08-22T17:19:11.265+08:00  WARN 28584 --- [main] com.zaxxer.hikari.HikariConfig           : HikariPool-1 - idleTimeout is close to or more than maxLifetime, disabling it.
+2024-08-22T17:19:11.266+08:00  INFO 28584 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-08-22T17:19:11.490+08:00  INFO 28584 --- [main] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Driver does not support get/set network timeout for connections. (feature not supported)
+2024-08-22T17:19:11.490+08:00  INFO 28584 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.hsqldb.jdbc.JDBCConnection@4d63b624
+2024-08-22T17:19:11.491+08:00  INFO 28584 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-08-22T17:19:11.654+08:00  WARN 28584 --- [main] ocalVariableTableParameterNameDiscoverer : Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: io.pebbletemplates.boot.autoconfigure.PebbleServletWebConfiguration
+2024-08-22T17:19:11.656+08:00  WARN 28584 --- [main] ocalVariableTableParameterNameDiscoverer : Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: io.pebbletemplates.boot.autoconfigure.PebbleAutoConfiguration
+2024-08-22T17:19:11.729+08:00  INFO 28584 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2024-08-22T17:19:11.741+08:00  INFO 28584 --- [main] com.itranswarp.learnjava.Application     : Started Application in 1.43 seconds (process running for 1.714)
+2024-08-22T17:19:16.114+08:00  INFO 28584 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-08-22T17:19:16.114+08:00  INFO 28584 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-08-22T17:19:16.115+08:00  INFO 28584 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-08-22T17:19:24.230+08:00  INFO 28584 --- [http-nio-8080-exec-5] c.i.learnjava.service.UserService        : try login by smk@gmail.com...
+2024-08-22T17:29:45.294+08:00  WARN 28584 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=8m33s682ms).
+2024-08-22T18:48:03.739+08:00  WARN 28584 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h18m18s446ms).
+2024-08-22T19:22:31.094+08:00  WARN 28584 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=33m57s313ms).
+2024-08-22T19:55:40.994+08:00  WARN 28584 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=33m9s900ms).
+2024-08-22T20:23:22.595+08:00  WARN 28584 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=27m41s601ms).
+2024-08-22T21:24:35.454+08:00  WARN 28584 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h42s853ms).
+2024-08-22T21:46:31.562+08:00  WARN 28584 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=21m56s108ms).
+2024-08-22T21:48:37.123+08:00  INFO 28584 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-08-22T21:48:37.125+08:00  INFO 28584 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-08-23T22:33:10.315+08:00  INFO 34187 --- [main] com.itranswarp.learnjava.Application     : Starting Application v1.0-SNAPSHOT using Java 22.0.2 with PID 34187 (/Users/smk/Library/CloudStorage/Dropbox/Others/projCache/Fwd/code/springboot-hello/target/springboot-hello-1.0-SNAPSHOT.jar started by smk in /Users/smk/Library/CloudStorage/Dropbox/Others/projCache/Fwd/code/springboot-hello)
+2024-08-23T22:33:10.317+08:00  INFO 34187 --- [main] com.itranswarp.learnjava.Application     : No active profile set, falling back to 1 default profile: "default"
+2024-08-23T22:33:10.847+08:00  INFO 34187 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2024-08-23T22:33:10.853+08:00  INFO 34187 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-08-23T22:33:10.853+08:00  INFO 34187 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.1]
+2024-08-23T22:33:10.898+08:00  INFO 34187 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-08-23T22:33:10.899+08:00  INFO 34187 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 559 ms
+2024-08-23T22:33:10.957+08:00  WARN 34187 --- [main] com.zaxxer.hikari.HikariConfig           : HikariPool-1 - idleTimeout is close to or more than maxLifetime, disabling it.
+2024-08-23T22:33:10.958+08:00  INFO 34187 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-08-23T22:33:11.184+08:00  INFO 34187 --- [main] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Driver does not support get/set network timeout for connections. (feature not supported)
+2024-08-23T22:33:11.184+08:00  INFO 34187 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.hsqldb.jdbc.JDBCConnection@245a26e1
+2024-08-23T22:33:11.185+08:00  INFO 34187 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-08-23T22:33:11.327+08:00  WARN 34187 --- [main] ocalVariableTableParameterNameDiscoverer : Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: io.pebbletemplates.boot.autoconfigure.PebbleServletWebConfiguration
+2024-08-23T22:33:11.329+08:00  WARN 34187 --- [main] ocalVariableTableParameterNameDiscoverer : Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: io.pebbletemplates.boot.autoconfigure.PebbleAutoConfiguration
+2024-08-23T22:33:11.392+08:00  INFO 34187 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2024-08-23T22:33:11.403+08:00  INFO 34187 --- [main] com.itranswarp.learnjava.Application     : Started Application in 1.401 seconds (process running for 1.721)
+2024-08-23T22:33:59.833+08:00  INFO 34187 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-08-23T22:33:59.834+08:00  INFO 34187 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-08-23T22:33:59.836+08:00  INFO 34187 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2024-08-23T22:51:13.855+08:00  WARN 34187 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=16m32s549ms).
+2024-08-23T23:01:26.654+08:00  INFO 34187 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-08-23T23:01:26.657+08:00  INFO 34187 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-08-24T14:54:34.724+08:00  INFO 35346 --- [main] com.itranswarp.learnjava.Application     : Starting Application v1.0-SNAPSHOT using Java 22.0.2 with PID 35346 (/Users/smk/Library/CloudStorage/Dropbox/Others/projCache/Fwd/code/springboot-hello/target/springboot-hello-1.0-SNAPSHOT.jar started by smk in /Users/smk/Library/CloudStorage/Dropbox/Others/projCache/Fwd/code/springboot-hello)
+2024-08-24T14:54:34.726+08:00  INFO 35346 --- [main] com.itranswarp.learnjava.Application     : No active profile set, falling back to 1 default profile: "default"
+2024-08-24T14:54:35.509+08:00  INFO 35346 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2024-08-24T14:54:35.518+08:00  INFO 35346 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-08-24T14:54:35.518+08:00  INFO 35346 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.1]
+2024-08-24T14:54:35.579+08:00  INFO 35346 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-08-24T14:54:35.580+08:00  INFO 35346 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 818 ms
+2024-08-24T14:54:35.660+08:00  WARN 35346 --- [main] com.zaxxer.hikari.HikariConfig           : HikariPool-1 - idleTimeout is close to or more than maxLifetime, disabling it.
+2024-08-24T14:54:35.661+08:00  INFO 35346 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-08-24T14:54:36.010+08:00  INFO 35346 --- [main] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Driver does not support get/set network timeout for connections. (feature not supported)
+2024-08-24T14:54:36.011+08:00  INFO 35346 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.hsqldb.jdbc.JDBCConnection@407cf41
+2024-08-24T14:54:36.012+08:00  INFO 35346 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-08-24T14:54:36.225+08:00  WARN 35346 --- [main] ocalVariableTableParameterNameDiscoverer : Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: io.pebbletemplates.boot.autoconfigure.PebbleServletWebConfiguration
+2024-08-24T14:54:36.228+08:00  WARN 35346 --- [main] ocalVariableTableParameterNameDiscoverer : Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: io.pebbletemplates.boot.autoconfigure.PebbleAutoConfiguration
+2024-08-24T14:54:36.443+08:00  INFO 35346 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2024-08-24T14:54:36.476+08:00  INFO 35346 --- [main] com.itranswarp.learnjava.Application     : Started Application in 2.212 seconds (process running for 2.611)
+2024-08-24T14:54:37.424+08:00  INFO 35346 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-08-24T14:54:37.424+08:00  INFO 35346 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-08-24T14:54:37.425+08:00  INFO 35346 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-08-24T14:54:54.638+08:00  INFO 35346 --- [http-nio-8080-exec-8] c.i.learnjava.service.UserService        : try login by kingsinghk@gmail.com...
+2024-08-24T14:55:20.426+08:00  INFO 35346 --- [http-nio-8080-exec-10] c.i.learnjava.service.UserService        : try login by kingsinghk@gmail.com...
+2024-08-24T14:56:26.005+08:00  INFO 35346 --- [http-nio-8080-exec-8] c.i.learnjava.service.UserService        : try login by kingsinghk@gmail.com...
+2024-08-24T15:05:03.043+08:00  WARN 35346 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=6m26s893ms).
+2024-08-24T15:05:49.604+08:00  INFO 35346 --- [http-nio-8080-exec-1] c.i.learnjava.service.UserService        : try login by kingsinghk@gmail.com...
+2024-08-24T15:05:56.283+08:00  INFO 35346 --- [http-nio-8080-exec-4] c.i.learnjava.service.UserService        : try login by kingsinghk@gmail.com,kingsinghk@gmail.com...
+2024-08-24T15:05:56.291+08:00  INFO 35346 --- [http-nio-8080-exec-5] c.i.learnjava.service.UserService        : try login by kingsinghk@gmail.com,kingsinghk@gmail.com...
+2024-08-24T15:05:58.147+08:00  INFO 35346 --- [http-nio-8080-exec-7] c.i.learnjava.service.UserService        : try login by kingsinghk@gmail.com...
+2024-08-24T15:13:12.533+08:00  INFO 35346 --- [http-nio-8080-exec-5] c.i.learnjava.service.UserService        : try login by kingsinghk@gmail.com...
+2024-08-24T15:13:52.511+08:00  INFO 35346 --- [http-nio-8080-exec-7] c.i.learnjava.service.UserService        : try login by kingsinghk@gmail.com...
+2024-08-24T15:14:02.750+08:00  INFO 35346 --- [http-nio-8080-exec-9] c.i.learnjava.service.UserService        : try login by kingsinghk@gmail.com...
+2024-08-24T15:30:30.427+08:00  INFO 35346 --- [http-nio-8080-exec-5] c.i.learnjava.service.UserService        : try login by kingsinghk@gmail.com...
+2024-08-24T15:54:34.780+08:00  WARN 35346 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m17s580ms).
+2024-08-24T17:53:55.698+08:00  WARN 35346 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h58m50s902ms).
+2024-08-24T18:54:38.604+08:00  WARN 35346 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h42s907ms).
+2024-08-24T19:14:53.320+08:00  WARN 35346 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=19m44s611ms).
+2024-08-24T19:55:53.854+08:00  WARN 35346 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=41m534ms).
+2024-08-24T20:56:38.679+08:00  WARN 35346 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h44s824ms).
+2024-08-24T21:08:11.983+08:00  WARN 35346 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=11m3s360ms).
+2024-08-24T21:20:18.900+08:00  WARN 35346 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m6s850ms).
+2024-08-24T22:13:15.237+08:00  WARN 35346 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=52m56s337ms).
+2024-08-24T22:14:02.216+08:00  INFO 35346 --- [http-nio-8080-exec-5] c.i.learnjava.service.UserService        : try login by smk@gmail.com...
+2024-08-24T22:15:03.505+08:00  INFO 35346 --- [http-nio-8080-exec-10] c.i.learnjava.service.UserService        : try login by kingsinghk@gmail.com...
+2024-08-24T22:15:57.719+08:00  INFO 35346 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-08-24T22:15:57.721+08:00  INFO 35346 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-08-24T22:37:26.154+08:00  INFO 36551 --- [main] com.itranswarp.learnjava.Application     : Starting Application using Java 22.0.2 with PID 36551 (/Users/smk/Library/CloudStorage/Dropbox/Others/projCache/Fwd/code/springboot-hello/target/classes started by smk in /Users/smk/Library/CloudStorage/Dropbox/Others/projCache/Fwd/code/springboot-hello)
+2024-08-24T22:37:26.157+08:00  INFO 36551 --- [main] com.itranswarp.learnjava.Application     : No active profile set, falling back to 1 default profile: "default"
+2024-08-24T22:37:27.014+08:00  INFO 36551 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2024-08-24T22:37:27.021+08:00  INFO 36551 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-08-24T22:37:27.021+08:00  INFO 36551 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.1]
+2024-08-24T22:37:27.082+08:00  INFO 36551 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-08-24T22:37:27.083+08:00  INFO 36551 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 890 ms
+2024-08-24T22:37:27.152+08:00  WARN 36551 --- [main] com.zaxxer.hikari.HikariConfig           : HikariPool-1 - idleTimeout is close to or more than maxLifetime, disabling it.
+2024-08-24T22:37:27.152+08:00  INFO 36551 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-08-24T22:37:27.462+08:00  INFO 36551 --- [main] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Driver does not support get/set network timeout for connections. (feature not supported)
+2024-08-24T22:37:27.463+08:00  INFO 36551 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.hsqldb.jdbc.JDBCConnection@67bf0480
+2024-08-24T22:37:27.464+08:00  INFO 36551 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-08-24T22:37:27.666+08:00  WARN 36551 --- [main] ocalVariableTableParameterNameDiscoverer : Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: io.pebbletemplates.boot.autoconfigure.PebbleServletWebConfiguration
+2024-08-24T22:37:27.673+08:00  WARN 36551 --- [main] ocalVariableTableParameterNameDiscoverer : Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: io.pebbletemplates.boot.autoconfigure.PebbleAutoConfiguration
+2024-08-24T22:37:27.764+08:00  INFO 36551 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2024-08-24T22:37:27.774+08:00  INFO 36551 --- [main] com.itranswarp.learnjava.Application     : Started Application in 2.174 seconds (process running for 2.522)
+2024-08-24T22:37:33.392+08:00  INFO 36551 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-08-24T22:37:33.392+08:00  INFO 36551 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-08-24T22:37:33.393+08:00  INFO 36551 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-08-24T22:37:51.627+08:00  INFO 36551 --- [http-nio-8080-exec-3] c.i.learnjava.service.UserService        : try login by smk@gmail.com...
+2024-08-24T22:38:47.538+08:00 ERROR 36551 --- [http-nio-8080-exec-6] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: io.pebbletemplates.pebble.error.LoaderException: Could not find template "templates/500.html" (?:?)] with root cause
+
+io.pebbletemplates.pebble.error.LoaderException: Could not find template "templates/500.html" (?:?)
+	at io.pebbletemplates.pebble.loader.ClasspathLoader.getReader(ClasspathLoader.java:60)
+	at io.pebbletemplates.pebble.loader.ClasspathLoader.getReader(ClasspathLoader.java:28)
+	at io.pebbletemplates.pebble.PebbleEngine.getPebbleTemplate(PebbleEngine.java:157)
+	at io.pebbletemplates.pebble.PebbleEngine.lambda$getTemplate$0(PebbleEngine.java:152)
+	at io.pebbletemplates.pebble.cache.template.NoOpTemplateCache.computeIfAbsent(NoOpTemplateCache.java:13)
+	at io.pebbletemplates.pebble.cache.template.NoOpTemplateCache.computeIfAbsent(NoOpTemplateCache.java:8)
+	at io.pebbletemplates.pebble.PebbleEngine.getTemplate(PebbleEngine.java:152)
+	at io.pebbletemplates.pebble.PebbleEngine.getTemplate(PebbleEngine.java:123)
+	at io.pebbletemplates.spring.servlet.PebbleView.evaluateTemplate(PebbleView.java:83)
+	at io.pebbletemplates.spring.servlet.PebbleView.renderMergedTemplateModel(PebbleView.java:59)
+	at org.springframework.web.servlet.view.AbstractTemplateView.renderMergedOutputModel(AbstractTemplateView.java:179)
+	at org.springframework.web.servlet.view.AbstractView.render(AbstractView.java:314)
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1414)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1158)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1097)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:973)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1003)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:895)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:705)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:880)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:814)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:223)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:119)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:400)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:861)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1739)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:1570)
+
+2024-08-24T22:38:47.594+08:00 ERROR 36551 --- [http-nio-8080-exec-6] s.e.ErrorMvcAutoConfiguration$StaticView : Cannot render error page for request [/resetPassword] as the response has already been committed. As a result, the response may have the wrong status code.
+2024-08-24T22:39:12.477+08:00 ERROR 36551 --- [http-nio-8080-exec-7] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: io.pebbletemplates.pebble.error.LoaderException: Could not find template "templates/500.html" (?:?)] with root cause
+
+io.pebbletemplates.pebble.error.LoaderException: Could not find template "templates/500.html" (?:?)
+	at io.pebbletemplates.pebble.loader.ClasspathLoader.getReader(ClasspathLoader.java:60)
+	at io.pebbletemplates.pebble.loader.ClasspathLoader.getReader(ClasspathLoader.java:28)
+	at io.pebbletemplates.pebble.PebbleEngine.getPebbleTemplate(PebbleEngine.java:157)
+	at io.pebbletemplates.pebble.PebbleEngine.lambda$getTemplate$0(PebbleEngine.java:152)
+	at io.pebbletemplates.pebble.cache.template.NoOpTemplateCache.computeIfAbsent(NoOpTemplateCache.java:13)
+	at io.pebbletemplates.pebble.cache.template.NoOpTemplateCache.computeIfAbsent(NoOpTemplateCache.java:8)
+	at io.pebbletemplates.pebble.PebbleEngine.getTemplate(PebbleEngine.java:152)
+	at io.pebbletemplates.pebble.PebbleEngine.getTemplate(PebbleEngine.java:123)
+	at io.pebbletemplates.spring.servlet.PebbleView.evaluateTemplate(PebbleView.java:83)
+	at io.pebbletemplates.spring.servlet.PebbleView.renderMergedTemplateModel(PebbleView.java:59)
+	at org.springframework.web.servlet.view.AbstractTemplateView.renderMergedOutputModel(AbstractTemplateView.java:179)
+	at org.springframework.web.servlet.view.AbstractView.render(AbstractView.java:314)
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1414)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1158)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1097)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:973)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1003)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:895)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:705)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:880)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:814)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:223)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:119)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:400)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:861)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1739)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:1570)
+
+2024-08-24T22:39:12.482+08:00 ERROR 36551 --- [http-nio-8080-exec-7] s.e.ErrorMvcAutoConfiguration$StaticView : Cannot render error page for request [/resetPassword] as the response has already been committed. As a result, the response may have the wrong status code.
+2024-08-24T22:39:17.164+08:00 ERROR 36551 --- [http-nio-8080-exec-8] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: io.pebbletemplates.pebble.error.LoaderException: Could not find template "templates/500.html" (?:?)] with root cause
+
+io.pebbletemplates.pebble.error.LoaderException: Could not find template "templates/500.html" (?:?)
+	at io.pebbletemplates.pebble.loader.ClasspathLoader.getReader(ClasspathLoader.java:60)
+	at io.pebbletemplates.pebble.loader.ClasspathLoader.getReader(ClasspathLoader.java:28)
+	at io.pebbletemplates.pebble.PebbleEngine.getPebbleTemplate(PebbleEngine.java:157)
+	at io.pebbletemplates.pebble.PebbleEngine.lambda$getTemplate$0(PebbleEngine.java:152)
+	at io.pebbletemplates.pebble.cache.template.NoOpTemplateCache.computeIfAbsent(NoOpTemplateCache.java:13)
+	at io.pebbletemplates.pebble.cache.template.NoOpTemplateCache.computeIfAbsent(NoOpTemplateCache.java:8)
+	at io.pebbletemplates.pebble.PebbleEngine.getTemplate(PebbleEngine.java:152)
+	at io.pebbletemplates.pebble.PebbleEngine.getTemplate(PebbleEngine.java:123)
+	at io.pebbletemplates.spring.servlet.PebbleView.evaluateTemplate(PebbleView.java:83)
+	at io.pebbletemplates.spring.servlet.PebbleView.renderMergedTemplateModel(PebbleView.java:59)
+	at org.springframework.web.servlet.view.AbstractTemplateView.renderMergedOutputModel(AbstractTemplateView.java:179)
+	at org.springframework.web.servlet.view.AbstractView.render(AbstractView.java:314)
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1414)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1158)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1097)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:973)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1003)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:895)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:705)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:880)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:814)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:223)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:119)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:400)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:861)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1739)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:1570)
+
+2024-08-24T22:39:17.167+08:00 ERROR 36551 --- [http-nio-8080-exec-8] s.e.ErrorMvcAutoConfiguration$StaticView : Cannot render error page for request [/resetPassword] as the response has already been committed. As a result, the response may have the wrong status code.
+2024-08-24T22:40:12.831+08:00 ERROR 36551 --- [http-nio-8080-exec-9] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: io.pebbletemplates.pebble.error.LoaderException: Could not find template "templates/500.html" (?:?)] with root cause
+
+io.pebbletemplates.pebble.error.LoaderException: Could not find template "templates/500.html" (?:?)
+	at io.pebbletemplates.pebble.loader.ClasspathLoader.getReader(ClasspathLoader.java:60)
+	at io.pebbletemplates.pebble.loader.ClasspathLoader.getReader(ClasspathLoader.java:28)
+	at io.pebbletemplates.pebble.PebbleEngine.getPebbleTemplate(PebbleEngine.java:157)
+	at io.pebbletemplates.pebble.PebbleEngine.lambda$getTemplate$0(PebbleEngine.java:152)
+	at io.pebbletemplates.pebble.cache.template.NoOpTemplateCache.computeIfAbsent(NoOpTemplateCache.java:13)
+	at io.pebbletemplates.pebble.cache.template.NoOpTemplateCache.computeIfAbsent(NoOpTemplateCache.java:8)
+	at io.pebbletemplates.pebble.PebbleEngine.getTemplate(PebbleEngine.java:152)
+	at io.pebbletemplates.pebble.PebbleEngine.getTemplate(PebbleEngine.java:123)
+	at io.pebbletemplates.spring.servlet.PebbleView.evaluateTemplate(PebbleView.java:83)
+	at io.pebbletemplates.spring.servlet.PebbleView.renderMergedTemplateModel(PebbleView.java:59)
+	at org.springframework.web.servlet.view.AbstractTemplateView.renderMergedOutputModel(AbstractTemplateView.java:179)
+	at org.springframework.web.servlet.view.AbstractView.render(AbstractView.java:314)
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1414)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1158)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1097)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:973)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1003)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:895)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:705)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:880)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:814)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:223)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:119)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:400)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:861)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1739)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:1570)
+
+2024-08-24T22:40:12.839+08:00 ERROR 36551 --- [http-nio-8080-exec-9] s.e.ErrorMvcAutoConfiguration$StaticView : Cannot render error page for request [/resetPassword] as the response has already been committed. As a result, the response may have the wrong status code.
+2024-08-24T22:40:16.370+08:00 ERROR 36551 --- [http-nio-8080-exec-10] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: io.pebbletemplates.pebble.error.LoaderException: Could not find template "templates/500.html" (?:?)] with root cause
+
+io.pebbletemplates.pebble.error.LoaderException: Could not find template "templates/500.html" (?:?)
+	at io.pebbletemplates.pebble.loader.ClasspathLoader.getReader(ClasspathLoader.java:60)
+	at io.pebbletemplates.pebble.loader.ClasspathLoader.getReader(ClasspathLoader.java:28)
+	at io.pebbletemplates.pebble.PebbleEngine.getPebbleTemplate(PebbleEngine.java:157)
+	at io.pebbletemplates.pebble.PebbleEngine.lambda$getTemplate$0(PebbleEngine.java:152)
+	at io.pebbletemplates.pebble.cache.template.NoOpTemplateCache.computeIfAbsent(NoOpTemplateCache.java:13)
+	at io.pebbletemplates.pebble.cache.template.NoOpTemplateCache.computeIfAbsent(NoOpTemplateCache.java:8)
+	at io.pebbletemplates.pebble.PebbleEngine.getTemplate(PebbleEngine.java:152)
+	at io.pebbletemplates.pebble.PebbleEngine.getTemplate(PebbleEngine.java:123)
+	at io.pebbletemplates.spring.servlet.PebbleView.evaluateTemplate(PebbleView.java:83)
+	at io.pebbletemplates.spring.servlet.PebbleView.renderMergedTemplateModel(PebbleView.java:59)
+	at org.springframework.web.servlet.view.AbstractTemplateView.renderMergedOutputModel(AbstractTemplateView.java:179)
+	at org.springframework.web.servlet.view.AbstractView.render(AbstractView.java:314)
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1414)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1158)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1097)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:973)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1003)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:895)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:705)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:880)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:814)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:223)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:119)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:400)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:861)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1739)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:1570)
+
+2024-08-24T22:40:16.375+08:00 ERROR 36551 --- [http-nio-8080-exec-10] s.e.ErrorMvcAutoConfiguration$StaticView : Cannot render error page for request [/resetPassword] as the response has already been committed. As a result, the response may have the wrong status code.
+2024-08-24T22:40:26.584+08:00 ERROR 36551 --- [http-nio-8080-exec-1] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: io.pebbletemplates.pebble.error.LoaderException: Could not find template "templates/500.html" (?:?)] with root cause
+
+io.pebbletemplates.pebble.error.LoaderException: Could not find template "templates/500.html" (?:?)
+	at io.pebbletemplates.pebble.loader.ClasspathLoader.getReader(ClasspathLoader.java:60)
+	at io.pebbletemplates.pebble.loader.ClasspathLoader.getReader(ClasspathLoader.java:28)
+	at io.pebbletemplates.pebble.PebbleEngine.getPebbleTemplate(PebbleEngine.java:157)
+	at io.pebbletemplates.pebble.PebbleEngine.lambda$getTemplate$0(PebbleEngine.java:152)
+	at io.pebbletemplates.pebble.cache.template.NoOpTemplateCache.computeIfAbsent(NoOpTemplateCache.java:13)
+	at io.pebbletemplates.pebble.cache.template.NoOpTemplateCache.computeIfAbsent(NoOpTemplateCache.java:8)
+	at io.pebbletemplates.pebble.PebbleEngine.getTemplate(PebbleEngine.java:152)
+	at io.pebbletemplates.pebble.PebbleEngine.getTemplate(PebbleEngine.java:123)
+	at io.pebbletemplates.spring.servlet.PebbleView.evaluateTemplate(PebbleView.java:83)
+	at io.pebbletemplates.spring.servlet.PebbleView.renderMergedTemplateModel(PebbleView.java:59)
+	at org.springframework.web.servlet.view.AbstractTemplateView.renderMergedOutputModel(AbstractTemplateView.java:179)
+	at org.springframework.web.servlet.view.AbstractView.render(AbstractView.java:314)
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1414)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1158)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1097)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:973)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1003)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:895)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:705)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:880)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:814)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:223)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:119)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:400)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:861)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1739)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:1570)
+
+2024-08-24T22:40:26.588+08:00 ERROR 36551 --- [http-nio-8080-exec-1] s.e.ErrorMvcAutoConfiguration$StaticView : Cannot render error page for request [/resetPassword] as the response has already been committed. As a result, the response may have the wrong status code.
+2024-08-24T22:41:08.721+08:00  INFO 36551 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-08-24T22:41:08.723+08:00  INFO 36551 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-08-24T22:41:21.208+08:00  INFO 36616 --- [main] com.itranswarp.learnjava.Application     : Starting Application using Java 22.0.2 with PID 36616 (/Users/smk/Library/CloudStorage/Dropbox/Others/projCache/Fwd/code/springboot-hello/target/classes started by smk in /Users/smk/Library/CloudStorage/Dropbox/Others/projCache/Fwd/code/springboot-hello)
+2024-08-24T22:41:21.211+08:00  INFO 36616 --- [main] com.itranswarp.learnjava.Application     : No active profile set, falling back to 1 default profile: "default"
+2024-08-24T22:41:22.156+08:00  INFO 36616 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2024-08-24T22:41:22.164+08:00  INFO 36616 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-08-24T22:41:22.164+08:00  INFO 36616 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.1]
+2024-08-24T22:41:22.239+08:00  INFO 36616 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-08-24T22:41:22.240+08:00  INFO 36616 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 982 ms
+2024-08-24T22:41:22.318+08:00  WARN 36616 --- [main] com.zaxxer.hikari.HikariConfig           : HikariPool-1 - idleTimeout is close to or more than maxLifetime, disabling it.
+2024-08-24T22:41:22.319+08:00  INFO 36616 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-08-24T22:41:22.733+08:00  INFO 36616 --- [main] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Driver does not support get/set network timeout for connections. (feature not supported)
+2024-08-24T22:41:22.735+08:00  INFO 36616 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.hsqldb.jdbc.JDBCConnection@5df7e31b
+2024-08-24T22:41:22.741+08:00  INFO 36616 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-08-24T22:41:23.141+08:00  WARN 36616 --- [main] ocalVariableTableParameterNameDiscoverer : Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: io.pebbletemplates.boot.autoconfigure.PebbleServletWebConfiguration
+2024-08-24T22:41:23.147+08:00  WARN 36616 --- [main] ocalVariableTableParameterNameDiscoverer : Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: io.pebbletemplates.boot.autoconfigure.PebbleAutoConfiguration
+2024-08-24T22:41:23.257+08:00  INFO 36616 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2024-08-24T22:41:23.267+08:00  INFO 36616 --- [main] com.itranswarp.learnjava.Application     : Started Application in 2.584 seconds (process running for 3.527)
+2024-08-24T22:41:23.754+08:00  INFO 36616 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-08-24T22:41:23.755+08:00  INFO 36616 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-08-24T22:41:23.756+08:00  INFO 36616 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-08-24T22:41:34.719+08:00  INFO 36616 --- [http-nio-8080-exec-6] c.i.learnjava.service.UserService        : try login by smk@gmail.com...
+2024-08-24T22:42:28.983+08:00  INFO 36616 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-08-24T22:42:28.985+08:00  INFO 36616 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-11-27T14:55:34.731+08:00  INFO 96040 --- [main] com.itranswarp.learnjava.Application     : Starting Application v1.0-SNAPSHOT using Java 23.0.1 with PID 96040 (/Users/smk/Library/CloudStorage/Dropbox/Others/projCache/Fwd/code/springboot-hello/target/springboot-hello-1.0-SNAPSHOT.jar started by smk in /Users/smk/Library/CloudStorage/Dropbox/Others/projCache/Fwd/code/springboot-hello)
+2024-11-27T14:55:34.732+08:00  INFO 96040 --- [main] com.itranswarp.learnjava.Application     : No active profile set, falling back to 1 default profile: "default"
+2024-11-27T14:55:35.265+08:00  INFO 96040 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2024-11-27T14:55:35.271+08:00  INFO 96040 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-11-27T14:55:35.271+08:00  INFO 96040 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.1]
+2024-11-27T14:55:35.319+08:00  INFO 96040 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-11-27T14:55:35.319+08:00  INFO 96040 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 553 ms
+2024-11-27T14:55:35.376+08:00  WARN 96040 --- [main] com.zaxxer.hikari.HikariConfig           : HikariPool-1 - idleTimeout is close to or more than maxLifetime, disabling it.
+2024-11-27T14:55:35.377+08:00  INFO 96040 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-11-27T14:55:35.595+08:00  INFO 96040 --- [main] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Driver does not support get/set network timeout for connections. (feature not supported)
+2024-11-27T14:55:35.596+08:00  INFO 96040 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.hsqldb.jdbc.JDBCConnection@644c78d4
+2024-11-27T14:55:35.597+08:00  INFO 96040 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-11-27T14:55:35.793+08:00  WARN 96040 --- [main] ocalVariableTableParameterNameDiscoverer : Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: io.pebbletemplates.boot.autoconfigure.PebbleServletWebConfiguration
+2024-11-27T14:55:35.796+08:00  WARN 96040 --- [main] ocalVariableTableParameterNameDiscoverer : Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: io.pebbletemplates.boot.autoconfigure.PebbleAutoConfiguration
+2024-11-27T14:55:35.865+08:00  INFO 96040 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2024-11-27T14:55:35.889+08:00  INFO 96040 --- [main] com.itranswarp.learnjava.Application     : Started Application in 1.419 seconds (process running for 1.663)
+2024-11-27T14:55:55.573+08:00  INFO 96040 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-11-27T14:55:55.574+08:00  INFO 96040 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-11-27T14:55:55.580+08:00  INFO 96040 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 5 ms
+2024-11-27T14:58:45.375+08:00  INFO 96040 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-11-27T14:58:45.378+08:00  INFO 96040 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
